@@ -1,0 +1,2007 @@
+rule ar
+  command = cmd.exe /C "arm-none-eabi-ar qc $out $in && arm-none-eabi-ranlib $out"
+  description = Creating archive $out
+
+build all: phony out-1.a out-2.a out-3.a out-4.a out-5.a out-6.a out-7.a out-8.a out-9.a out-10.a out-11.a out-12.a out-13.a out-14.a out-15.a out-16.a out-17.a out-18.a out-19.a out-20.a out-21.a out-22.a out-23.a out-24.a out-25.a out-26.a out-27.a out-28.a out-29.a out-30.a out-31.a out-32.a out-33.a out-34.a out-35.a out-36.a out-37.a out-38.a out-39.a out-40.a out-41.a out-42.a out-43.a out-44.a out-45.a out-46.a out-47.a out-48.a out-49.a out-50.a out-51.a out-52.a out-53.a out-54.a out-55.a out-56.a out-57.a out-58.a out-59.a out-60.a out-61.a out-62.a out-63.a out-64.a out-65.a out-66.a out-67.a out-68.a out-69.a out-70.a out-71.a out-72.a out-73.a out-74.a out-75.a out-76.a out-77.a out-78.a out-79.a out-80.a out-81.a out-82.a out-83.a out-84.a out-85.a out-86.a out-87.a out-88.a out-89.a out-90.a out-91.a out-92.a out-93.a out-94.a out-95.a out-96.a out-97.a out-98.a out-99.a out-100.a out-101.a out-102.a out-103.a out-104.a out-105.a out-106.a out-107.a out-108.a out-109.a out-110.a out-111.a out-112.a out-113.a out-114.a out-115.a out-116.a out-117.a out-118.a out-119.a out-120.a out-121.a out-122.a out-123.a out-124.a out-125.a out-126.a out-127.a out-128.a out-129.a out-130.a out-131.a out-132.a out-133.a out-134.a out-135.a out-136.a out-137.a out-138.a out-139.a out-140.a out-141.a out-142.a out-143.a out-144.a out-145.a out-146.a out-147.a out-148.a out-149.a out-150.a out-151.a out-152.a out-153.a out-154.a out-155.a out-156.a out-157.a out-158.a out-159.a out-160.a out-161.a out-162.a out-163.a out-164.a out-165.a out-166.a out-167.a out-168.a out-169.a out-170.a out-171.a out-172.a out-173.a out-174.a out-175.a out-176.a out-177.a out-178.a out-179.a out-180.a out-181.a out-182.a out-183.a out-184.a out-185.a out-186.a out-187.a out-188.a out-189.a out-190.a out-191.a out-192.a out-193.a out-194.a out-195.a out-196.a out-197.a out-198.a out-199.a out-200.a out-201.a out-202.a out-203.a out-204.a out-205.a out-206.a out-207.a out-208.a out-209.a out-210.a out-211.a out-212.a out-213.a out-214.a out-215.a out-216.a out-217.a out-218.a out-219.a out-220.a out-221.a out-222.a out-223.a out-224.a out-225.a out-226.a out-227.a out-228.a out-229.a out-230.a out-231.a out-232.a out-233.a out-234.a out-235.a out-236.a out-237.a out-238.a out-239.a out-240.a out-241.a out-242.a out-243.a out-244.a out-245.a out-246.a out-247.a out-248.a out-249.a out-250.a out-251.a out-252.a out-253.a out-254.a out-255.a out-256.a out-257.a out-258.a out-259.a out-260.a out-261.a out-262.a out-263.a out-264.a out-265.a out-266.a out-267.a out-268.a out-269.a out-270.a out-271.a out-272.a out-273.a out-274.a out-275.a out-276.a out-277.a out-278.a out-279.a out-280.a out-281.a out-282.a out-283.a out-284.a out-285.a out-286.a out-287.a out-288.a out-289.a out-290.a out-291.a out-292.a out-293.a out-294.a out-295.a out-296.a out-297.a out-298.a out-299.a out-300.a out-301.a out-302.a out-303.a out-304.a out-305.a out-306.a out-307.a out-308.a out-309.a out-310.a out-311.a out-312.a out-313.a out-314.a out-315.a out-316.a out-317.a out-318.a out-319.a out-320.a out-321.a out-322.a out-323.a out-324.a out-325.a out-326.a out-327.a out-328.a out-329.a out-330.a out-331.a out-332.a out-333.a out-334.a out-335.a out-336.a out-337.a out-338.a out-339.a out-340.a out-341.a out-342.a out-343.a out-344.a out-345.a out-346.a out-347.a out-348.a out-349.a out-350.a out-351.a out-352.a out-353.a out-354.a out-355.a out-356.a out-357.a out-358.a out-359.a out-360.a out-361.a out-362.a out-363.a out-364.a out-365.a out-366.a out-367.a out-368.a out-369.a out-370.a out-371.a out-372.a out-373.a out-374.a out-375.a out-376.a out-377.a out-378.a out-379.a out-380.a out-381.a out-382.a out-383.a out-384.a out-385.a out-386.a out-387.a out-388.a out-389.a out-390.a out-391.a out-392.a out-393.a out-394.a out-395.a out-396.a out-397.a out-398.a out-399.a out-400.a out-401.a out-402.a out-403.a out-404.a out-405.a out-406.a out-407.a out-408.a out-409.a out-410.a out-411.a out-412.a out-413.a out-414.a out-415.a out-416.a out-417.a out-418.a out-419.a out-420.a out-421.a out-422.a out-423.a out-424.a out-425.a out-426.a out-427.a out-428.a out-429.a out-430.a out-431.a out-432.a out-433.a out-434.a out-435.a out-436.a out-437.a out-438.a out-439.a out-440.a out-441.a out-442.a out-443.a out-444.a out-445.a out-446.a out-447.a out-448.a out-449.a out-450.a out-451.a out-452.a out-453.a out-454.a out-455.a out-456.a out-457.a out-458.a out-459.a out-460.a out-461.a out-462.a out-463.a out-464.a out-465.a out-466.a out-467.a out-468.a out-469.a out-470.a out-471.a out-472.a out-473.a out-474.a out-475.a out-476.a out-477.a out-478.a out-479.a out-480.a out-481.a out-482.a out-483.a out-484.a out-485.a out-486.a out-487.a out-488.a out-489.a out-490.a out-491.a out-492.a out-493.a out-494.a out-495.a out-496.a out-497.a out-498.a out-499.a out-500.a out-501.a out-502.a out-503.a out-504.a out-505.a out-506.a out-507.a out-508.a out-509.a out-510.a out-511.a out-512.a out-513.a out-514.a out-515.a out-516.a out-517.a out-518.a out-519.a out-520.a out-521.a out-522.a out-523.a out-524.a out-525.a out-526.a out-527.a out-528.a out-529.a out-530.a out-531.a out-532.a out-533.a out-534.a out-535.a out-536.a out-537.a out-538.a out-539.a out-540.a out-541.a out-542.a out-543.a out-544.a out-545.a out-546.a out-547.a out-548.a out-549.a out-550.a out-551.a out-552.a out-553.a out-554.a out-555.a out-556.a out-557.a out-558.a out-559.a out-560.a out-561.a out-562.a out-563.a out-564.a out-565.a out-566.a out-567.a out-568.a out-569.a out-570.a out-571.a out-572.a out-573.a out-574.a out-575.a out-576.a out-577.a out-578.a out-579.a out-580.a out-581.a out-582.a out-583.a out-584.a out-585.a out-586.a out-587.a out-588.a out-589.a out-590.a out-591.a out-592.a out-593.a out-594.a out-595.a out-596.a out-597.a out-598.a out-599.a out-600.a out-601.a out-602.a out-603.a out-604.a out-605.a out-606.a out-607.a out-608.a out-609.a out-610.a out-611.a out-612.a out-613.a out-614.a out-615.a out-616.a out-617.a out-618.a out-619.a out-620.a out-621.a out-622.a out-623.a out-624.a out-625.a out-626.a out-627.a out-628.a out-629.a out-630.a out-631.a out-632.a out-633.a out-634.a out-635.a out-636.a out-637.a out-638.a out-639.a out-640.a out-641.a out-642.a out-643.a out-644.a out-645.a out-646.a out-647.a out-648.a out-649.a out-650.a out-651.a out-652.a out-653.a out-654.a out-655.a out-656.a out-657.a out-658.a out-659.a out-660.a out-661.a out-662.a out-663.a out-664.a out-665.a out-666.a out-667.a out-668.a out-669.a out-670.a out-671.a out-672.a out-673.a out-674.a out-675.a out-676.a out-677.a out-678.a out-679.a out-680.a out-681.a out-682.a out-683.a out-684.a out-685.a out-686.a out-687.a out-688.a out-689.a out-690.a out-691.a out-692.a out-693.a out-694.a out-695.a out-696.a out-697.a out-698.a out-699.a out-700.a out-701.a out-702.a out-703.a out-704.a out-705.a out-706.a out-707.a out-708.a out-709.a out-710.a out-711.a out-712.a out-713.a out-714.a out-715.a out-716.a out-717.a out-718.a out-719.a out-720.a out-721.a out-722.a out-723.a out-724.a out-725.a out-726.a out-727.a out-728.a out-729.a out-730.a out-731.a out-732.a out-733.a out-734.a out-735.a out-736.a out-737.a out-738.a out-739.a out-740.a out-741.a out-742.a out-743.a out-744.a out-745.a out-746.a out-747.a out-748.a out-749.a out-750.a out-751.a out-752.a out-753.a out-754.a out-755.a out-756.a out-757.a out-758.a out-759.a out-760.a out-761.a out-762.a out-763.a out-764.a out-765.a out-766.a out-767.a out-768.a out-769.a out-770.a out-771.a out-772.a out-773.a out-774.a out-775.a out-776.a out-777.a out-778.a out-779.a out-780.a out-781.a out-782.a out-783.a out-784.a out-785.a out-786.a out-787.a out-788.a out-789.a out-790.a out-791.a out-792.a out-793.a out-794.a out-795.a out-796.a out-797.a out-798.a out-799.a out-800.a out-801.a out-802.a out-803.a out-804.a out-805.a out-806.a out-807.a out-808.a out-809.a out-810.a out-811.a out-812.a out-813.a out-814.a out-815.a out-816.a out-817.a out-818.a out-819.a out-820.a out-821.a out-822.a out-823.a out-824.a out-825.a out-826.a out-827.a out-828.a out-829.a out-830.a out-831.a out-832.a out-833.a out-834.a out-835.a out-836.a out-837.a out-838.a out-839.a out-840.a out-841.a out-842.a out-843.a out-844.a out-845.a out-846.a out-847.a out-848.a out-849.a out-850.a out-851.a out-852.a out-853.a out-854.a out-855.a out-856.a out-857.a out-858.a out-859.a out-860.a out-861.a out-862.a out-863.a out-864.a out-865.a out-866.a out-867.a out-868.a out-869.a out-870.a out-871.a out-872.a out-873.a out-874.a out-875.a out-876.a out-877.a out-878.a out-879.a out-880.a out-881.a out-882.a out-883.a out-884.a out-885.a out-886.a out-887.a out-888.a out-889.a out-890.a out-891.a out-892.a out-893.a out-894.a out-895.a out-896.a out-897.a out-898.a out-899.a out-900.a out-901.a out-902.a out-903.a out-904.a out-905.a out-906.a out-907.a out-908.a out-909.a out-910.a out-911.a out-912.a out-913.a out-914.a out-915.a out-916.a out-917.a out-918.a out-919.a out-920.a out-921.a out-922.a out-923.a out-924.a out-925.a out-926.a out-927.a out-928.a out-929.a out-930.a out-931.a out-932.a out-933.a out-934.a out-935.a out-936.a out-937.a out-938.a out-939.a out-940.a out-941.a out-942.a out-943.a out-944.a out-945.a out-946.a out-947.a out-948.a out-949.a out-950.a out-951.a out-952.a out-953.a out-954.a out-955.a out-956.a out-957.a out-958.a out-959.a out-960.a out-961.a out-962.a out-963.a out-964.a out-965.a out-966.a out-967.a out-968.a out-969.a out-970.a out-971.a out-972.a out-973.a out-974.a out-975.a out-976.a out-977.a out-978.a out-979.a out-980.a out-981.a out-982.a out-983.a out-984.a out-985.a out-986.a out-987.a out-988.a out-989.a out-990.a out-991.a out-992.a out-993.a out-994.a out-995.a out-996.a out-997.a out-998.a out-999.a out-1000.a
+default all
+
+build out-1.a: ar input1.o input2.o
+
+build out-2.a: ar input1.o input2.o
+
+build out-3.a: ar input1.o input2.o
+
+build out-4.a: ar input1.o input2.o
+
+build out-5.a: ar input1.o input2.o
+
+build out-6.a: ar input1.o input2.o
+
+build out-7.a: ar input1.o input2.o
+
+build out-8.a: ar input1.o input2.o
+
+build out-9.a: ar input1.o input2.o
+
+build out-10.a: ar input1.o input2.o
+
+build out-11.a: ar input1.o input2.o
+
+build out-12.a: ar input1.o input2.o
+
+build out-13.a: ar input1.o input2.o
+
+build out-14.a: ar input1.o input2.o
+
+build out-15.a: ar input1.o input2.o
+
+build out-16.a: ar input1.o input2.o
+
+build out-17.a: ar input1.o input2.o
+
+build out-18.a: ar input1.o input2.o
+
+build out-19.a: ar input1.o input2.o
+
+build out-20.a: ar input1.o input2.o
+
+build out-21.a: ar input1.o input2.o
+
+build out-22.a: ar input1.o input2.o
+
+build out-23.a: ar input1.o input2.o
+
+build out-24.a: ar input1.o input2.o
+
+build out-25.a: ar input1.o input2.o
+
+build out-26.a: ar input1.o input2.o
+
+build out-27.a: ar input1.o input2.o
+
+build out-28.a: ar input1.o input2.o
+
+build out-29.a: ar input1.o input2.o
+
+build out-30.a: ar input1.o input2.o
+
+build out-31.a: ar input1.o input2.o
+
+build out-32.a: ar input1.o input2.o
+
+build out-33.a: ar input1.o input2.o
+
+build out-34.a: ar input1.o input2.o
+
+build out-35.a: ar input1.o input2.o
+
+build out-36.a: ar input1.o input2.o
+
+build out-37.a: ar input1.o input2.o
+
+build out-38.a: ar input1.o input2.o
+
+build out-39.a: ar input1.o input2.o
+
+build out-40.a: ar input1.o input2.o
+
+build out-41.a: ar input1.o input2.o
+
+build out-42.a: ar input1.o input2.o
+
+build out-43.a: ar input1.o input2.o
+
+build out-44.a: ar input1.o input2.o
+
+build out-45.a: ar input1.o input2.o
+
+build out-46.a: ar input1.o input2.o
+
+build out-47.a: ar input1.o input2.o
+
+build out-48.a: ar input1.o input2.o
+
+build out-49.a: ar input1.o input2.o
+
+build out-50.a: ar input1.o input2.o
+
+build out-51.a: ar input1.o input2.o
+
+build out-52.a: ar input1.o input2.o
+
+build out-53.a: ar input1.o input2.o
+
+build out-54.a: ar input1.o input2.o
+
+build out-55.a: ar input1.o input2.o
+
+build out-56.a: ar input1.o input2.o
+
+build out-57.a: ar input1.o input2.o
+
+build out-58.a: ar input1.o input2.o
+
+build out-59.a: ar input1.o input2.o
+
+build out-60.a: ar input1.o input2.o
+
+build out-61.a: ar input1.o input2.o
+
+build out-62.a: ar input1.o input2.o
+
+build out-63.a: ar input1.o input2.o
+
+build out-64.a: ar input1.o input2.o
+
+build out-65.a: ar input1.o input2.o
+
+build out-66.a: ar input1.o input2.o
+
+build out-67.a: ar input1.o input2.o
+
+build out-68.a: ar input1.o input2.o
+
+build out-69.a: ar input1.o input2.o
+
+build out-70.a: ar input1.o input2.o
+
+build out-71.a: ar input1.o input2.o
+
+build out-72.a: ar input1.o input2.o
+
+build out-73.a: ar input1.o input2.o
+
+build out-74.a: ar input1.o input2.o
+
+build out-75.a: ar input1.o input2.o
+
+build out-76.a: ar input1.o input2.o
+
+build out-77.a: ar input1.o input2.o
+
+build out-78.a: ar input1.o input2.o
+
+build out-79.a: ar input1.o input2.o
+
+build out-80.a: ar input1.o input2.o
+
+build out-81.a: ar input1.o input2.o
+
+build out-82.a: ar input1.o input2.o
+
+build out-83.a: ar input1.o input2.o
+
+build out-84.a: ar input1.o input2.o
+
+build out-85.a: ar input1.o input2.o
+
+build out-86.a: ar input1.o input2.o
+
+build out-87.a: ar input1.o input2.o
+
+build out-88.a: ar input1.o input2.o
+
+build out-89.a: ar input1.o input2.o
+
+build out-90.a: ar input1.o input2.o
+
+build out-91.a: ar input1.o input2.o
+
+build out-92.a: ar input1.o input2.o
+
+build out-93.a: ar input1.o input2.o
+
+build out-94.a: ar input1.o input2.o
+
+build out-95.a: ar input1.o input2.o
+
+build out-96.a: ar input1.o input2.o
+
+build out-97.a: ar input1.o input2.o
+
+build out-98.a: ar input1.o input2.o
+
+build out-99.a: ar input1.o input2.o
+
+build out-100.a: ar input1.o input2.o
+
+build out-101.a: ar input1.o input2.o
+
+build out-102.a: ar input1.o input2.o
+
+build out-103.a: ar input1.o input2.o
+
+build out-104.a: ar input1.o input2.o
+
+build out-105.a: ar input1.o input2.o
+
+build out-106.a: ar input1.o input2.o
+
+build out-107.a: ar input1.o input2.o
+
+build out-108.a: ar input1.o input2.o
+
+build out-109.a: ar input1.o input2.o
+
+build out-110.a: ar input1.o input2.o
+
+build out-111.a: ar input1.o input2.o
+
+build out-112.a: ar input1.o input2.o
+
+build out-113.a: ar input1.o input2.o
+
+build out-114.a: ar input1.o input2.o
+
+build out-115.a: ar input1.o input2.o
+
+build out-116.a: ar input1.o input2.o
+
+build out-117.a: ar input1.o input2.o
+
+build out-118.a: ar input1.o input2.o
+
+build out-119.a: ar input1.o input2.o
+
+build out-120.a: ar input1.o input2.o
+
+build out-121.a: ar input1.o input2.o
+
+build out-122.a: ar input1.o input2.o
+
+build out-123.a: ar input1.o input2.o
+
+build out-124.a: ar input1.o input2.o
+
+build out-125.a: ar input1.o input2.o
+
+build out-126.a: ar input1.o input2.o
+
+build out-127.a: ar input1.o input2.o
+
+build out-128.a: ar input1.o input2.o
+
+build out-129.a: ar input1.o input2.o
+
+build out-130.a: ar input1.o input2.o
+
+build out-131.a: ar input1.o input2.o
+
+build out-132.a: ar input1.o input2.o
+
+build out-133.a: ar input1.o input2.o
+
+build out-134.a: ar input1.o input2.o
+
+build out-135.a: ar input1.o input2.o
+
+build out-136.a: ar input1.o input2.o
+
+build out-137.a: ar input1.o input2.o
+
+build out-138.a: ar input1.o input2.o
+
+build out-139.a: ar input1.o input2.o
+
+build out-140.a: ar input1.o input2.o
+
+build out-141.a: ar input1.o input2.o
+
+build out-142.a: ar input1.o input2.o
+
+build out-143.a: ar input1.o input2.o
+
+build out-144.a: ar input1.o input2.o
+
+build out-145.a: ar input1.o input2.o
+
+build out-146.a: ar input1.o input2.o
+
+build out-147.a: ar input1.o input2.o
+
+build out-148.a: ar input1.o input2.o
+
+build out-149.a: ar input1.o input2.o
+
+build out-150.a: ar input1.o input2.o
+
+build out-151.a: ar input1.o input2.o
+
+build out-152.a: ar input1.o input2.o
+
+build out-153.a: ar input1.o input2.o
+
+build out-154.a: ar input1.o input2.o
+
+build out-155.a: ar input1.o input2.o
+
+build out-156.a: ar input1.o input2.o
+
+build out-157.a: ar input1.o input2.o
+
+build out-158.a: ar input1.o input2.o
+
+build out-159.a: ar input1.o input2.o
+
+build out-160.a: ar input1.o input2.o
+
+build out-161.a: ar input1.o input2.o
+
+build out-162.a: ar input1.o input2.o
+
+build out-163.a: ar input1.o input2.o
+
+build out-164.a: ar input1.o input2.o
+
+build out-165.a: ar input1.o input2.o
+
+build out-166.a: ar input1.o input2.o
+
+build out-167.a: ar input1.o input2.o
+
+build out-168.a: ar input1.o input2.o
+
+build out-169.a: ar input1.o input2.o
+
+build out-170.a: ar input1.o input2.o
+
+build out-171.a: ar input1.o input2.o
+
+build out-172.a: ar input1.o input2.o
+
+build out-173.a: ar input1.o input2.o
+
+build out-174.a: ar input1.o input2.o
+
+build out-175.a: ar input1.o input2.o
+
+build out-176.a: ar input1.o input2.o
+
+build out-177.a: ar input1.o input2.o
+
+build out-178.a: ar input1.o input2.o
+
+build out-179.a: ar input1.o input2.o
+
+build out-180.a: ar input1.o input2.o
+
+build out-181.a: ar input1.o input2.o
+
+build out-182.a: ar input1.o input2.o
+
+build out-183.a: ar input1.o input2.o
+
+build out-184.a: ar input1.o input2.o
+
+build out-185.a: ar input1.o input2.o
+
+build out-186.a: ar input1.o input2.o
+
+build out-187.a: ar input1.o input2.o
+
+build out-188.a: ar input1.o input2.o
+
+build out-189.a: ar input1.o input2.o
+
+build out-190.a: ar input1.o input2.o
+
+build out-191.a: ar input1.o input2.o
+
+build out-192.a: ar input1.o input2.o
+
+build out-193.a: ar input1.o input2.o
+
+build out-194.a: ar input1.o input2.o
+
+build out-195.a: ar input1.o input2.o
+
+build out-196.a: ar input1.o input2.o
+
+build out-197.a: ar input1.o input2.o
+
+build out-198.a: ar input1.o input2.o
+
+build out-199.a: ar input1.o input2.o
+
+build out-200.a: ar input1.o input2.o
+
+build out-201.a: ar input1.o input2.o
+
+build out-202.a: ar input1.o input2.o
+
+build out-203.a: ar input1.o input2.o
+
+build out-204.a: ar input1.o input2.o
+
+build out-205.a: ar input1.o input2.o
+
+build out-206.a: ar input1.o input2.o
+
+build out-207.a: ar input1.o input2.o
+
+build out-208.a: ar input1.o input2.o
+
+build out-209.a: ar input1.o input2.o
+
+build out-210.a: ar input1.o input2.o
+
+build out-211.a: ar input1.o input2.o
+
+build out-212.a: ar input1.o input2.o
+
+build out-213.a: ar input1.o input2.o
+
+build out-214.a: ar input1.o input2.o
+
+build out-215.a: ar input1.o input2.o
+
+build out-216.a: ar input1.o input2.o
+
+build out-217.a: ar input1.o input2.o
+
+build out-218.a: ar input1.o input2.o
+
+build out-219.a: ar input1.o input2.o
+
+build out-220.a: ar input1.o input2.o
+
+build out-221.a: ar input1.o input2.o
+
+build out-222.a: ar input1.o input2.o
+
+build out-223.a: ar input1.o input2.o
+
+build out-224.a: ar input1.o input2.o
+
+build out-225.a: ar input1.o input2.o
+
+build out-226.a: ar input1.o input2.o
+
+build out-227.a: ar input1.o input2.o
+
+build out-228.a: ar input1.o input2.o
+
+build out-229.a: ar input1.o input2.o
+
+build out-230.a: ar input1.o input2.o
+
+build out-231.a: ar input1.o input2.o
+
+build out-232.a: ar input1.o input2.o
+
+build out-233.a: ar input1.o input2.o
+
+build out-234.a: ar input1.o input2.o
+
+build out-235.a: ar input1.o input2.o
+
+build out-236.a: ar input1.o input2.o
+
+build out-237.a: ar input1.o input2.o
+
+build out-238.a: ar input1.o input2.o
+
+build out-239.a: ar input1.o input2.o
+
+build out-240.a: ar input1.o input2.o
+
+build out-241.a: ar input1.o input2.o
+
+build out-242.a: ar input1.o input2.o
+
+build out-243.a: ar input1.o input2.o
+
+build out-244.a: ar input1.o input2.o
+
+build out-245.a: ar input1.o input2.o
+
+build out-246.a: ar input1.o input2.o
+
+build out-247.a: ar input1.o input2.o
+
+build out-248.a: ar input1.o input2.o
+
+build out-249.a: ar input1.o input2.o
+
+build out-250.a: ar input1.o input2.o
+
+build out-251.a: ar input1.o input2.o
+
+build out-252.a: ar input1.o input2.o
+
+build out-253.a: ar input1.o input2.o
+
+build out-254.a: ar input1.o input2.o
+
+build out-255.a: ar input1.o input2.o
+
+build out-256.a: ar input1.o input2.o
+
+build out-257.a: ar input1.o input2.o
+
+build out-258.a: ar input1.o input2.o
+
+build out-259.a: ar input1.o input2.o
+
+build out-260.a: ar input1.o input2.o
+
+build out-261.a: ar input1.o input2.o
+
+build out-262.a: ar input1.o input2.o
+
+build out-263.a: ar input1.o input2.o
+
+build out-264.a: ar input1.o input2.o
+
+build out-265.a: ar input1.o input2.o
+
+build out-266.a: ar input1.o input2.o
+
+build out-267.a: ar input1.o input2.o
+
+build out-268.a: ar input1.o input2.o
+
+build out-269.a: ar input1.o input2.o
+
+build out-270.a: ar input1.o input2.o
+
+build out-271.a: ar input1.o input2.o
+
+build out-272.a: ar input1.o input2.o
+
+build out-273.a: ar input1.o input2.o
+
+build out-274.a: ar input1.o input2.o
+
+build out-275.a: ar input1.o input2.o
+
+build out-276.a: ar input1.o input2.o
+
+build out-277.a: ar input1.o input2.o
+
+build out-278.a: ar input1.o input2.o
+
+build out-279.a: ar input1.o input2.o
+
+build out-280.a: ar input1.o input2.o
+
+build out-281.a: ar input1.o input2.o
+
+build out-282.a: ar input1.o input2.o
+
+build out-283.a: ar input1.o input2.o
+
+build out-284.a: ar input1.o input2.o
+
+build out-285.a: ar input1.o input2.o
+
+build out-286.a: ar input1.o input2.o
+
+build out-287.a: ar input1.o input2.o
+
+build out-288.a: ar input1.o input2.o
+
+build out-289.a: ar input1.o input2.o
+
+build out-290.a: ar input1.o input2.o
+
+build out-291.a: ar input1.o input2.o
+
+build out-292.a: ar input1.o input2.o
+
+build out-293.a: ar input1.o input2.o
+
+build out-294.a: ar input1.o input2.o
+
+build out-295.a: ar input1.o input2.o
+
+build out-296.a: ar input1.o input2.o
+
+build out-297.a: ar input1.o input2.o
+
+build out-298.a: ar input1.o input2.o
+
+build out-299.a: ar input1.o input2.o
+
+build out-300.a: ar input1.o input2.o
+
+build out-301.a: ar input1.o input2.o
+
+build out-302.a: ar input1.o input2.o
+
+build out-303.a: ar input1.o input2.o
+
+build out-304.a: ar input1.o input2.o
+
+build out-305.a: ar input1.o input2.o
+
+build out-306.a: ar input1.o input2.o
+
+build out-307.a: ar input1.o input2.o
+
+build out-308.a: ar input1.o input2.o
+
+build out-309.a: ar input1.o input2.o
+
+build out-310.a: ar input1.o input2.o
+
+build out-311.a: ar input1.o input2.o
+
+build out-312.a: ar input1.o input2.o
+
+build out-313.a: ar input1.o input2.o
+
+build out-314.a: ar input1.o input2.o
+
+build out-315.a: ar input1.o input2.o
+
+build out-316.a: ar input1.o input2.o
+
+build out-317.a: ar input1.o input2.o
+
+build out-318.a: ar input1.o input2.o
+
+build out-319.a: ar input1.o input2.o
+
+build out-320.a: ar input1.o input2.o
+
+build out-321.a: ar input1.o input2.o
+
+build out-322.a: ar input1.o input2.o
+
+build out-323.a: ar input1.o input2.o
+
+build out-324.a: ar input1.o input2.o
+
+build out-325.a: ar input1.o input2.o
+
+build out-326.a: ar input1.o input2.o
+
+build out-327.a: ar input1.o input2.o
+
+build out-328.a: ar input1.o input2.o
+
+build out-329.a: ar input1.o input2.o
+
+build out-330.a: ar input1.o input2.o
+
+build out-331.a: ar input1.o input2.o
+
+build out-332.a: ar input1.o input2.o
+
+build out-333.a: ar input1.o input2.o
+
+build out-334.a: ar input1.o input2.o
+
+build out-335.a: ar input1.o input2.o
+
+build out-336.a: ar input1.o input2.o
+
+build out-337.a: ar input1.o input2.o
+
+build out-338.a: ar input1.o input2.o
+
+build out-339.a: ar input1.o input2.o
+
+build out-340.a: ar input1.o input2.o
+
+build out-341.a: ar input1.o input2.o
+
+build out-342.a: ar input1.o input2.o
+
+build out-343.a: ar input1.o input2.o
+
+build out-344.a: ar input1.o input2.o
+
+build out-345.a: ar input1.o input2.o
+
+build out-346.a: ar input1.o input2.o
+
+build out-347.a: ar input1.o input2.o
+
+build out-348.a: ar input1.o input2.o
+
+build out-349.a: ar input1.o input2.o
+
+build out-350.a: ar input1.o input2.o
+
+build out-351.a: ar input1.o input2.o
+
+build out-352.a: ar input1.o input2.o
+
+build out-353.a: ar input1.o input2.o
+
+build out-354.a: ar input1.o input2.o
+
+build out-355.a: ar input1.o input2.o
+
+build out-356.a: ar input1.o input2.o
+
+build out-357.a: ar input1.o input2.o
+
+build out-358.a: ar input1.o input2.o
+
+build out-359.a: ar input1.o input2.o
+
+build out-360.a: ar input1.o input2.o
+
+build out-361.a: ar input1.o input2.o
+
+build out-362.a: ar input1.o input2.o
+
+build out-363.a: ar input1.o input2.o
+
+build out-364.a: ar input1.o input2.o
+
+build out-365.a: ar input1.o input2.o
+
+build out-366.a: ar input1.o input2.o
+
+build out-367.a: ar input1.o input2.o
+
+build out-368.a: ar input1.o input2.o
+
+build out-369.a: ar input1.o input2.o
+
+build out-370.a: ar input1.o input2.o
+
+build out-371.a: ar input1.o input2.o
+
+build out-372.a: ar input1.o input2.o
+
+build out-373.a: ar input1.o input2.o
+
+build out-374.a: ar input1.o input2.o
+
+build out-375.a: ar input1.o input2.o
+
+build out-376.a: ar input1.o input2.o
+
+build out-377.a: ar input1.o input2.o
+
+build out-378.a: ar input1.o input2.o
+
+build out-379.a: ar input1.o input2.o
+
+build out-380.a: ar input1.o input2.o
+
+build out-381.a: ar input1.o input2.o
+
+build out-382.a: ar input1.o input2.o
+
+build out-383.a: ar input1.o input2.o
+
+build out-384.a: ar input1.o input2.o
+
+build out-385.a: ar input1.o input2.o
+
+build out-386.a: ar input1.o input2.o
+
+build out-387.a: ar input1.o input2.o
+
+build out-388.a: ar input1.o input2.o
+
+build out-389.a: ar input1.o input2.o
+
+build out-390.a: ar input1.o input2.o
+
+build out-391.a: ar input1.o input2.o
+
+build out-392.a: ar input1.o input2.o
+
+build out-393.a: ar input1.o input2.o
+
+build out-394.a: ar input1.o input2.o
+
+build out-395.a: ar input1.o input2.o
+
+build out-396.a: ar input1.o input2.o
+
+build out-397.a: ar input1.o input2.o
+
+build out-398.a: ar input1.o input2.o
+
+build out-399.a: ar input1.o input2.o
+
+build out-400.a: ar input1.o input2.o
+
+build out-401.a: ar input1.o input2.o
+
+build out-402.a: ar input1.o input2.o
+
+build out-403.a: ar input1.o input2.o
+
+build out-404.a: ar input1.o input2.o
+
+build out-405.a: ar input1.o input2.o
+
+build out-406.a: ar input1.o input2.o
+
+build out-407.a: ar input1.o input2.o
+
+build out-408.a: ar input1.o input2.o
+
+build out-409.a: ar input1.o input2.o
+
+build out-410.a: ar input1.o input2.o
+
+build out-411.a: ar input1.o input2.o
+
+build out-412.a: ar input1.o input2.o
+
+build out-413.a: ar input1.o input2.o
+
+build out-414.a: ar input1.o input2.o
+
+build out-415.a: ar input1.o input2.o
+
+build out-416.a: ar input1.o input2.o
+
+build out-417.a: ar input1.o input2.o
+
+build out-418.a: ar input1.o input2.o
+
+build out-419.a: ar input1.o input2.o
+
+build out-420.a: ar input1.o input2.o
+
+build out-421.a: ar input1.o input2.o
+
+build out-422.a: ar input1.o input2.o
+
+build out-423.a: ar input1.o input2.o
+
+build out-424.a: ar input1.o input2.o
+
+build out-425.a: ar input1.o input2.o
+
+build out-426.a: ar input1.o input2.o
+
+build out-427.a: ar input1.o input2.o
+
+build out-428.a: ar input1.o input2.o
+
+build out-429.a: ar input1.o input2.o
+
+build out-430.a: ar input1.o input2.o
+
+build out-431.a: ar input1.o input2.o
+
+build out-432.a: ar input1.o input2.o
+
+build out-433.a: ar input1.o input2.o
+
+build out-434.a: ar input1.o input2.o
+
+build out-435.a: ar input1.o input2.o
+
+build out-436.a: ar input1.o input2.o
+
+build out-437.a: ar input1.o input2.o
+
+build out-438.a: ar input1.o input2.o
+
+build out-439.a: ar input1.o input2.o
+
+build out-440.a: ar input1.o input2.o
+
+build out-441.a: ar input1.o input2.o
+
+build out-442.a: ar input1.o input2.o
+
+build out-443.a: ar input1.o input2.o
+
+build out-444.a: ar input1.o input2.o
+
+build out-445.a: ar input1.o input2.o
+
+build out-446.a: ar input1.o input2.o
+
+build out-447.a: ar input1.o input2.o
+
+build out-448.a: ar input1.o input2.o
+
+build out-449.a: ar input1.o input2.o
+
+build out-450.a: ar input1.o input2.o
+
+build out-451.a: ar input1.o input2.o
+
+build out-452.a: ar input1.o input2.o
+
+build out-453.a: ar input1.o input2.o
+
+build out-454.a: ar input1.o input2.o
+
+build out-455.a: ar input1.o input2.o
+
+build out-456.a: ar input1.o input2.o
+
+build out-457.a: ar input1.o input2.o
+
+build out-458.a: ar input1.o input2.o
+
+build out-459.a: ar input1.o input2.o
+
+build out-460.a: ar input1.o input2.o
+
+build out-461.a: ar input1.o input2.o
+
+build out-462.a: ar input1.o input2.o
+
+build out-463.a: ar input1.o input2.o
+
+build out-464.a: ar input1.o input2.o
+
+build out-465.a: ar input1.o input2.o
+
+build out-466.a: ar input1.o input2.o
+
+build out-467.a: ar input1.o input2.o
+
+build out-468.a: ar input1.o input2.o
+
+build out-469.a: ar input1.o input2.o
+
+build out-470.a: ar input1.o input2.o
+
+build out-471.a: ar input1.o input2.o
+
+build out-472.a: ar input1.o input2.o
+
+build out-473.a: ar input1.o input2.o
+
+build out-474.a: ar input1.o input2.o
+
+build out-475.a: ar input1.o input2.o
+
+build out-476.a: ar input1.o input2.o
+
+build out-477.a: ar input1.o input2.o
+
+build out-478.a: ar input1.o input2.o
+
+build out-479.a: ar input1.o input2.o
+
+build out-480.a: ar input1.o input2.o
+
+build out-481.a: ar input1.o input2.o
+
+build out-482.a: ar input1.o input2.o
+
+build out-483.a: ar input1.o input2.o
+
+build out-484.a: ar input1.o input2.o
+
+build out-485.a: ar input1.o input2.o
+
+build out-486.a: ar input1.o input2.o
+
+build out-487.a: ar input1.o input2.o
+
+build out-488.a: ar input1.o input2.o
+
+build out-489.a: ar input1.o input2.o
+
+build out-490.a: ar input1.o input2.o
+
+build out-491.a: ar input1.o input2.o
+
+build out-492.a: ar input1.o input2.o
+
+build out-493.a: ar input1.o input2.o
+
+build out-494.a: ar input1.o input2.o
+
+build out-495.a: ar input1.o input2.o
+
+build out-496.a: ar input1.o input2.o
+
+build out-497.a: ar input1.o input2.o
+
+build out-498.a: ar input1.o input2.o
+
+build out-499.a: ar input1.o input2.o
+
+build out-500.a: ar input1.o input2.o
+
+build out-501.a: ar input1.o input2.o
+
+build out-502.a: ar input1.o input2.o
+
+build out-503.a: ar input1.o input2.o
+
+build out-504.a: ar input1.o input2.o
+
+build out-505.a: ar input1.o input2.o
+
+build out-506.a: ar input1.o input2.o
+
+build out-507.a: ar input1.o input2.o
+
+build out-508.a: ar input1.o input2.o
+
+build out-509.a: ar input1.o input2.o
+
+build out-510.a: ar input1.o input2.o
+
+build out-511.a: ar input1.o input2.o
+
+build out-512.a: ar input1.o input2.o
+
+build out-513.a: ar input1.o input2.o
+
+build out-514.a: ar input1.o input2.o
+
+build out-515.a: ar input1.o input2.o
+
+build out-516.a: ar input1.o input2.o
+
+build out-517.a: ar input1.o input2.o
+
+build out-518.a: ar input1.o input2.o
+
+build out-519.a: ar input1.o input2.o
+
+build out-520.a: ar input1.o input2.o
+
+build out-521.a: ar input1.o input2.o
+
+build out-522.a: ar input1.o input2.o
+
+build out-523.a: ar input1.o input2.o
+
+build out-524.a: ar input1.o input2.o
+
+build out-525.a: ar input1.o input2.o
+
+build out-526.a: ar input1.o input2.o
+
+build out-527.a: ar input1.o input2.o
+
+build out-528.a: ar input1.o input2.o
+
+build out-529.a: ar input1.o input2.o
+
+build out-530.a: ar input1.o input2.o
+
+build out-531.a: ar input1.o input2.o
+
+build out-532.a: ar input1.o input2.o
+
+build out-533.a: ar input1.o input2.o
+
+build out-534.a: ar input1.o input2.o
+
+build out-535.a: ar input1.o input2.o
+
+build out-536.a: ar input1.o input2.o
+
+build out-537.a: ar input1.o input2.o
+
+build out-538.a: ar input1.o input2.o
+
+build out-539.a: ar input1.o input2.o
+
+build out-540.a: ar input1.o input2.o
+
+build out-541.a: ar input1.o input2.o
+
+build out-542.a: ar input1.o input2.o
+
+build out-543.a: ar input1.o input2.o
+
+build out-544.a: ar input1.o input2.o
+
+build out-545.a: ar input1.o input2.o
+
+build out-546.a: ar input1.o input2.o
+
+build out-547.a: ar input1.o input2.o
+
+build out-548.a: ar input1.o input2.o
+
+build out-549.a: ar input1.o input2.o
+
+build out-550.a: ar input1.o input2.o
+
+build out-551.a: ar input1.o input2.o
+
+build out-552.a: ar input1.o input2.o
+
+build out-553.a: ar input1.o input2.o
+
+build out-554.a: ar input1.o input2.o
+
+build out-555.a: ar input1.o input2.o
+
+build out-556.a: ar input1.o input2.o
+
+build out-557.a: ar input1.o input2.o
+
+build out-558.a: ar input1.o input2.o
+
+build out-559.a: ar input1.o input2.o
+
+build out-560.a: ar input1.o input2.o
+
+build out-561.a: ar input1.o input2.o
+
+build out-562.a: ar input1.o input2.o
+
+build out-563.a: ar input1.o input2.o
+
+build out-564.a: ar input1.o input2.o
+
+build out-565.a: ar input1.o input2.o
+
+build out-566.a: ar input1.o input2.o
+
+build out-567.a: ar input1.o input2.o
+
+build out-568.a: ar input1.o input2.o
+
+build out-569.a: ar input1.o input2.o
+
+build out-570.a: ar input1.o input2.o
+
+build out-571.a: ar input1.o input2.o
+
+build out-572.a: ar input1.o input2.o
+
+build out-573.a: ar input1.o input2.o
+
+build out-574.a: ar input1.o input2.o
+
+build out-575.a: ar input1.o input2.o
+
+build out-576.a: ar input1.o input2.o
+
+build out-577.a: ar input1.o input2.o
+
+build out-578.a: ar input1.o input2.o
+
+build out-579.a: ar input1.o input2.o
+
+build out-580.a: ar input1.o input2.o
+
+build out-581.a: ar input1.o input2.o
+
+build out-582.a: ar input1.o input2.o
+
+build out-583.a: ar input1.o input2.o
+
+build out-584.a: ar input1.o input2.o
+
+build out-585.a: ar input1.o input2.o
+
+build out-586.a: ar input1.o input2.o
+
+build out-587.a: ar input1.o input2.o
+
+build out-588.a: ar input1.o input2.o
+
+build out-589.a: ar input1.o input2.o
+
+build out-590.a: ar input1.o input2.o
+
+build out-591.a: ar input1.o input2.o
+
+build out-592.a: ar input1.o input2.o
+
+build out-593.a: ar input1.o input2.o
+
+build out-594.a: ar input1.o input2.o
+
+build out-595.a: ar input1.o input2.o
+
+build out-596.a: ar input1.o input2.o
+
+build out-597.a: ar input1.o input2.o
+
+build out-598.a: ar input1.o input2.o
+
+build out-599.a: ar input1.o input2.o
+
+build out-600.a: ar input1.o input2.o
+
+build out-601.a: ar input1.o input2.o
+
+build out-602.a: ar input1.o input2.o
+
+build out-603.a: ar input1.o input2.o
+
+build out-604.a: ar input1.o input2.o
+
+build out-605.a: ar input1.o input2.o
+
+build out-606.a: ar input1.o input2.o
+
+build out-607.a: ar input1.o input2.o
+
+build out-608.a: ar input1.o input2.o
+
+build out-609.a: ar input1.o input2.o
+
+build out-610.a: ar input1.o input2.o
+
+build out-611.a: ar input1.o input2.o
+
+build out-612.a: ar input1.o input2.o
+
+build out-613.a: ar input1.o input2.o
+
+build out-614.a: ar input1.o input2.o
+
+build out-615.a: ar input1.o input2.o
+
+build out-616.a: ar input1.o input2.o
+
+build out-617.a: ar input1.o input2.o
+
+build out-618.a: ar input1.o input2.o
+
+build out-619.a: ar input1.o input2.o
+
+build out-620.a: ar input1.o input2.o
+
+build out-621.a: ar input1.o input2.o
+
+build out-622.a: ar input1.o input2.o
+
+build out-623.a: ar input1.o input2.o
+
+build out-624.a: ar input1.o input2.o
+
+build out-625.a: ar input1.o input2.o
+
+build out-626.a: ar input1.o input2.o
+
+build out-627.a: ar input1.o input2.o
+
+build out-628.a: ar input1.o input2.o
+
+build out-629.a: ar input1.o input2.o
+
+build out-630.a: ar input1.o input2.o
+
+build out-631.a: ar input1.o input2.o
+
+build out-632.a: ar input1.o input2.o
+
+build out-633.a: ar input1.o input2.o
+
+build out-634.a: ar input1.o input2.o
+
+build out-635.a: ar input1.o input2.o
+
+build out-636.a: ar input1.o input2.o
+
+build out-637.a: ar input1.o input2.o
+
+build out-638.a: ar input1.o input2.o
+
+build out-639.a: ar input1.o input2.o
+
+build out-640.a: ar input1.o input2.o
+
+build out-641.a: ar input1.o input2.o
+
+build out-642.a: ar input1.o input2.o
+
+build out-643.a: ar input1.o input2.o
+
+build out-644.a: ar input1.o input2.o
+
+build out-645.a: ar input1.o input2.o
+
+build out-646.a: ar input1.o input2.o
+
+build out-647.a: ar input1.o input2.o
+
+build out-648.a: ar input1.o input2.o
+
+build out-649.a: ar input1.o input2.o
+
+build out-650.a: ar input1.o input2.o
+
+build out-651.a: ar input1.o input2.o
+
+build out-652.a: ar input1.o input2.o
+
+build out-653.a: ar input1.o input2.o
+
+build out-654.a: ar input1.o input2.o
+
+build out-655.a: ar input1.o input2.o
+
+build out-656.a: ar input1.o input2.o
+
+build out-657.a: ar input1.o input2.o
+
+build out-658.a: ar input1.o input2.o
+
+build out-659.a: ar input1.o input2.o
+
+build out-660.a: ar input1.o input2.o
+
+build out-661.a: ar input1.o input2.o
+
+build out-662.a: ar input1.o input2.o
+
+build out-663.a: ar input1.o input2.o
+
+build out-664.a: ar input1.o input2.o
+
+build out-665.a: ar input1.o input2.o
+
+build out-666.a: ar input1.o input2.o
+
+build out-667.a: ar input1.o input2.o
+
+build out-668.a: ar input1.o input2.o
+
+build out-669.a: ar input1.o input2.o
+
+build out-670.a: ar input1.o input2.o
+
+build out-671.a: ar input1.o input2.o
+
+build out-672.a: ar input1.o input2.o
+
+build out-673.a: ar input1.o input2.o
+
+build out-674.a: ar input1.o input2.o
+
+build out-675.a: ar input1.o input2.o
+
+build out-676.a: ar input1.o input2.o
+
+build out-677.a: ar input1.o input2.o
+
+build out-678.a: ar input1.o input2.o
+
+build out-679.a: ar input1.o input2.o
+
+build out-680.a: ar input1.o input2.o
+
+build out-681.a: ar input1.o input2.o
+
+build out-682.a: ar input1.o input2.o
+
+build out-683.a: ar input1.o input2.o
+
+build out-684.a: ar input1.o input2.o
+
+build out-685.a: ar input1.o input2.o
+
+build out-686.a: ar input1.o input2.o
+
+build out-687.a: ar input1.o input2.o
+
+build out-688.a: ar input1.o input2.o
+
+build out-689.a: ar input1.o input2.o
+
+build out-690.a: ar input1.o input2.o
+
+build out-691.a: ar input1.o input2.o
+
+build out-692.a: ar input1.o input2.o
+
+build out-693.a: ar input1.o input2.o
+
+build out-694.a: ar input1.o input2.o
+
+build out-695.a: ar input1.o input2.o
+
+build out-696.a: ar input1.o input2.o
+
+build out-697.a: ar input1.o input2.o
+
+build out-698.a: ar input1.o input2.o
+
+build out-699.a: ar input1.o input2.o
+
+build out-700.a: ar input1.o input2.o
+
+build out-701.a: ar input1.o input2.o
+
+build out-702.a: ar input1.o input2.o
+
+build out-703.a: ar input1.o input2.o
+
+build out-704.a: ar input1.o input2.o
+
+build out-705.a: ar input1.o input2.o
+
+build out-706.a: ar input1.o input2.o
+
+build out-707.a: ar input1.o input2.o
+
+build out-708.a: ar input1.o input2.o
+
+build out-709.a: ar input1.o input2.o
+
+build out-710.a: ar input1.o input2.o
+
+build out-711.a: ar input1.o input2.o
+
+build out-712.a: ar input1.o input2.o
+
+build out-713.a: ar input1.o input2.o
+
+build out-714.a: ar input1.o input2.o
+
+build out-715.a: ar input1.o input2.o
+
+build out-716.a: ar input1.o input2.o
+
+build out-717.a: ar input1.o input2.o
+
+build out-718.a: ar input1.o input2.o
+
+build out-719.a: ar input1.o input2.o
+
+build out-720.a: ar input1.o input2.o
+
+build out-721.a: ar input1.o input2.o
+
+build out-722.a: ar input1.o input2.o
+
+build out-723.a: ar input1.o input2.o
+
+build out-724.a: ar input1.o input2.o
+
+build out-725.a: ar input1.o input2.o
+
+build out-726.a: ar input1.o input2.o
+
+build out-727.a: ar input1.o input2.o
+
+build out-728.a: ar input1.o input2.o
+
+build out-729.a: ar input1.o input2.o
+
+build out-730.a: ar input1.o input2.o
+
+build out-731.a: ar input1.o input2.o
+
+build out-732.a: ar input1.o input2.o
+
+build out-733.a: ar input1.o input2.o
+
+build out-734.a: ar input1.o input2.o
+
+build out-735.a: ar input1.o input2.o
+
+build out-736.a: ar input1.o input2.o
+
+build out-737.a: ar input1.o input2.o
+
+build out-738.a: ar input1.o input2.o
+
+build out-739.a: ar input1.o input2.o
+
+build out-740.a: ar input1.o input2.o
+
+build out-741.a: ar input1.o input2.o
+
+build out-742.a: ar input1.o input2.o
+
+build out-743.a: ar input1.o input2.o
+
+build out-744.a: ar input1.o input2.o
+
+build out-745.a: ar input1.o input2.o
+
+build out-746.a: ar input1.o input2.o
+
+build out-747.a: ar input1.o input2.o
+
+build out-748.a: ar input1.o input2.o
+
+build out-749.a: ar input1.o input2.o
+
+build out-750.a: ar input1.o input2.o
+
+build out-751.a: ar input1.o input2.o
+
+build out-752.a: ar input1.o input2.o
+
+build out-753.a: ar input1.o input2.o
+
+build out-754.a: ar input1.o input2.o
+
+build out-755.a: ar input1.o input2.o
+
+build out-756.a: ar input1.o input2.o
+
+build out-757.a: ar input1.o input2.o
+
+build out-758.a: ar input1.o input2.o
+
+build out-759.a: ar input1.o input2.o
+
+build out-760.a: ar input1.o input2.o
+
+build out-761.a: ar input1.o input2.o
+
+build out-762.a: ar input1.o input2.o
+
+build out-763.a: ar input1.o input2.o
+
+build out-764.a: ar input1.o input2.o
+
+build out-765.a: ar input1.o input2.o
+
+build out-766.a: ar input1.o input2.o
+
+build out-767.a: ar input1.o input2.o
+
+build out-768.a: ar input1.o input2.o
+
+build out-769.a: ar input1.o input2.o
+
+build out-770.a: ar input1.o input2.o
+
+build out-771.a: ar input1.o input2.o
+
+build out-772.a: ar input1.o input2.o
+
+build out-773.a: ar input1.o input2.o
+
+build out-774.a: ar input1.o input2.o
+
+build out-775.a: ar input1.o input2.o
+
+build out-776.a: ar input1.o input2.o
+
+build out-777.a: ar input1.o input2.o
+
+build out-778.a: ar input1.o input2.o
+
+build out-779.a: ar input1.o input2.o
+
+build out-780.a: ar input1.o input2.o
+
+build out-781.a: ar input1.o input2.o
+
+build out-782.a: ar input1.o input2.o
+
+build out-783.a: ar input1.o input2.o
+
+build out-784.a: ar input1.o input2.o
+
+build out-785.a: ar input1.o input2.o
+
+build out-786.a: ar input1.o input2.o
+
+build out-787.a: ar input1.o input2.o
+
+build out-788.a: ar input1.o input2.o
+
+build out-789.a: ar input1.o input2.o
+
+build out-790.a: ar input1.o input2.o
+
+build out-791.a: ar input1.o input2.o
+
+build out-792.a: ar input1.o input2.o
+
+build out-793.a: ar input1.o input2.o
+
+build out-794.a: ar input1.o input2.o
+
+build out-795.a: ar input1.o input2.o
+
+build out-796.a: ar input1.o input2.o
+
+build out-797.a: ar input1.o input2.o
+
+build out-798.a: ar input1.o input2.o
+
+build out-799.a: ar input1.o input2.o
+
+build out-800.a: ar input1.o input2.o
+
+build out-801.a: ar input1.o input2.o
+
+build out-802.a: ar input1.o input2.o
+
+build out-803.a: ar input1.o input2.o
+
+build out-804.a: ar input1.o input2.o
+
+build out-805.a: ar input1.o input2.o
+
+build out-806.a: ar input1.o input2.o
+
+build out-807.a: ar input1.o input2.o
+
+build out-808.a: ar input1.o input2.o
+
+build out-809.a: ar input1.o input2.o
+
+build out-810.a: ar input1.o input2.o
+
+build out-811.a: ar input1.o input2.o
+
+build out-812.a: ar input1.o input2.o
+
+build out-813.a: ar input1.o input2.o
+
+build out-814.a: ar input1.o input2.o
+
+build out-815.a: ar input1.o input2.o
+
+build out-816.a: ar input1.o input2.o
+
+build out-817.a: ar input1.o input2.o
+
+build out-818.a: ar input1.o input2.o
+
+build out-819.a: ar input1.o input2.o
+
+build out-820.a: ar input1.o input2.o
+
+build out-821.a: ar input1.o input2.o
+
+build out-822.a: ar input1.o input2.o
+
+build out-823.a: ar input1.o input2.o
+
+build out-824.a: ar input1.o input2.o
+
+build out-825.a: ar input1.o input2.o
+
+build out-826.a: ar input1.o input2.o
+
+build out-827.a: ar input1.o input2.o
+
+build out-828.a: ar input1.o input2.o
+
+build out-829.a: ar input1.o input2.o
+
+build out-830.a: ar input1.o input2.o
+
+build out-831.a: ar input1.o input2.o
+
+build out-832.a: ar input1.o input2.o
+
+build out-833.a: ar input1.o input2.o
+
+build out-834.a: ar input1.o input2.o
+
+build out-835.a: ar input1.o input2.o
+
+build out-836.a: ar input1.o input2.o
+
+build out-837.a: ar input1.o input2.o
+
+build out-838.a: ar input1.o input2.o
+
+build out-839.a: ar input1.o input2.o
+
+build out-840.a: ar input1.o input2.o
+
+build out-841.a: ar input1.o input2.o
+
+build out-842.a: ar input1.o input2.o
+
+build out-843.a: ar input1.o input2.o
+
+build out-844.a: ar input1.o input2.o
+
+build out-845.a: ar input1.o input2.o
+
+build out-846.a: ar input1.o input2.o
+
+build out-847.a: ar input1.o input2.o
+
+build out-848.a: ar input1.o input2.o
+
+build out-849.a: ar input1.o input2.o
+
+build out-850.a: ar input1.o input2.o
+
+build out-851.a: ar input1.o input2.o
+
+build out-852.a: ar input1.o input2.o
+
+build out-853.a: ar input1.o input2.o
+
+build out-854.a: ar input1.o input2.o
+
+build out-855.a: ar input1.o input2.o
+
+build out-856.a: ar input1.o input2.o
+
+build out-857.a: ar input1.o input2.o
+
+build out-858.a: ar input1.o input2.o
+
+build out-859.a: ar input1.o input2.o
+
+build out-860.a: ar input1.o input2.o
+
+build out-861.a: ar input1.o input2.o
+
+build out-862.a: ar input1.o input2.o
+
+build out-863.a: ar input1.o input2.o
+
+build out-864.a: ar input1.o input2.o
+
+build out-865.a: ar input1.o input2.o
+
+build out-866.a: ar input1.o input2.o
+
+build out-867.a: ar input1.o input2.o
+
+build out-868.a: ar input1.o input2.o
+
+build out-869.a: ar input1.o input2.o
+
+build out-870.a: ar input1.o input2.o
+
+build out-871.a: ar input1.o input2.o
+
+build out-872.a: ar input1.o input2.o
+
+build out-873.a: ar input1.o input2.o
+
+build out-874.a: ar input1.o input2.o
+
+build out-875.a: ar input1.o input2.o
+
+build out-876.a: ar input1.o input2.o
+
+build out-877.a: ar input1.o input2.o
+
+build out-878.a: ar input1.o input2.o
+
+build out-879.a: ar input1.o input2.o
+
+build out-880.a: ar input1.o input2.o
+
+build out-881.a: ar input1.o input2.o
+
+build out-882.a: ar input1.o input2.o
+
+build out-883.a: ar input1.o input2.o
+
+build out-884.a: ar input1.o input2.o
+
+build out-885.a: ar input1.o input2.o
+
+build out-886.a: ar input1.o input2.o
+
+build out-887.a: ar input1.o input2.o
+
+build out-888.a: ar input1.o input2.o
+
+build out-889.a: ar input1.o input2.o
+
+build out-890.a: ar input1.o input2.o
+
+build out-891.a: ar input1.o input2.o
+
+build out-892.a: ar input1.o input2.o
+
+build out-893.a: ar input1.o input2.o
+
+build out-894.a: ar input1.o input2.o
+
+build out-895.a: ar input1.o input2.o
+
+build out-896.a: ar input1.o input2.o
+
+build out-897.a: ar input1.o input2.o
+
+build out-898.a: ar input1.o input2.o
+
+build out-899.a: ar input1.o input2.o
+
+build out-900.a: ar input1.o input2.o
+
+build out-901.a: ar input1.o input2.o
+
+build out-902.a: ar input1.o input2.o
+
+build out-903.a: ar input1.o input2.o
+
+build out-904.a: ar input1.o input2.o
+
+build out-905.a: ar input1.o input2.o
+
+build out-906.a: ar input1.o input2.o
+
+build out-907.a: ar input1.o input2.o
+
+build out-908.a: ar input1.o input2.o
+
+build out-909.a: ar input1.o input2.o
+
+build out-910.a: ar input1.o input2.o
+
+build out-911.a: ar input1.o input2.o
+
+build out-912.a: ar input1.o input2.o
+
+build out-913.a: ar input1.o input2.o
+
+build out-914.a: ar input1.o input2.o
+
+build out-915.a: ar input1.o input2.o
+
+build out-916.a: ar input1.o input2.o
+
+build out-917.a: ar input1.o input2.o
+
+build out-918.a: ar input1.o input2.o
+
+build out-919.a: ar input1.o input2.o
+
+build out-920.a: ar input1.o input2.o
+
+build out-921.a: ar input1.o input2.o
+
+build out-922.a: ar input1.o input2.o
+
+build out-923.a: ar input1.o input2.o
+
+build out-924.a: ar input1.o input2.o
+
+build out-925.a: ar input1.o input2.o
+
+build out-926.a: ar input1.o input2.o
+
+build out-927.a: ar input1.o input2.o
+
+build out-928.a: ar input1.o input2.o
+
+build out-929.a: ar input1.o input2.o
+
+build out-930.a: ar input1.o input2.o
+
+build out-931.a: ar input1.o input2.o
+
+build out-932.a: ar input1.o input2.o
+
+build out-933.a: ar input1.o input2.o
+
+build out-934.a: ar input1.o input2.o
+
+build out-935.a: ar input1.o input2.o
+
+build out-936.a: ar input1.o input2.o
+
+build out-937.a: ar input1.o input2.o
+
+build out-938.a: ar input1.o input2.o
+
+build out-939.a: ar input1.o input2.o
+
+build out-940.a: ar input1.o input2.o
+
+build out-941.a: ar input1.o input2.o
+
+build out-942.a: ar input1.o input2.o
+
+build out-943.a: ar input1.o input2.o
+
+build out-944.a: ar input1.o input2.o
+
+build out-945.a: ar input1.o input2.o
+
+build out-946.a: ar input1.o input2.o
+
+build out-947.a: ar input1.o input2.o
+
+build out-948.a: ar input1.o input2.o
+
+build out-949.a: ar input1.o input2.o
+
+build out-950.a: ar input1.o input2.o
+
+build out-951.a: ar input1.o input2.o
+
+build out-952.a: ar input1.o input2.o
+
+build out-953.a: ar input1.o input2.o
+
+build out-954.a: ar input1.o input2.o
+
+build out-955.a: ar input1.o input2.o
+
+build out-956.a: ar input1.o input2.o
+
+build out-957.a: ar input1.o input2.o
+
+build out-958.a: ar input1.o input2.o
+
+build out-959.a: ar input1.o input2.o
+
+build out-960.a: ar input1.o input2.o
+
+build out-961.a: ar input1.o input2.o
+
+build out-962.a: ar input1.o input2.o
+
+build out-963.a: ar input1.o input2.o
+
+build out-964.a: ar input1.o input2.o
+
+build out-965.a: ar input1.o input2.o
+
+build out-966.a: ar input1.o input2.o
+
+build out-967.a: ar input1.o input2.o
+
+build out-968.a: ar input1.o input2.o
+
+build out-969.a: ar input1.o input2.o
+
+build out-970.a: ar input1.o input2.o
+
+build out-971.a: ar input1.o input2.o
+
+build out-972.a: ar input1.o input2.o
+
+build out-973.a: ar input1.o input2.o
+
+build out-974.a: ar input1.o input2.o
+
+build out-975.a: ar input1.o input2.o
+
+build out-976.a: ar input1.o input2.o
+
+build out-977.a: ar input1.o input2.o
+
+build out-978.a: ar input1.o input2.o
+
+build out-979.a: ar input1.o input2.o
+
+build out-980.a: ar input1.o input2.o
+
+build out-981.a: ar input1.o input2.o
+
+build out-982.a: ar input1.o input2.o
+
+build out-983.a: ar input1.o input2.o
+
+build out-984.a: ar input1.o input2.o
+
+build out-985.a: ar input1.o input2.o
+
+build out-986.a: ar input1.o input2.o
+
+build out-987.a: ar input1.o input2.o
+
+build out-988.a: ar input1.o input2.o
+
+build out-989.a: ar input1.o input2.o
+
+build out-990.a: ar input1.o input2.o
+
+build out-991.a: ar input1.o input2.o
+
+build out-992.a: ar input1.o input2.o
+
+build out-993.a: ar input1.o input2.o
+
+build out-994.a: ar input1.o input2.o
+
+build out-995.a: ar input1.o input2.o
+
+build out-996.a: ar input1.o input2.o
+
+build out-997.a: ar input1.o input2.o
+
+build out-998.a: ar input1.o input2.o
+
+build out-999.a: ar input1.o input2.o
+
+build out-1000.a: ar input1.o input2.o
+
